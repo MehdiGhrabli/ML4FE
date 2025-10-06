@@ -121,25 +121,22 @@ By using Anaconda, you get everything you need in a single, straightforward inst
     git clone [https://github.com/MehdiGhrabli/ML4F.git](https://github.com/MehdiGhrabli/ML4F.git)
     ```
 
-6.  **Enter the Project Directory:** Now, move into the newly created project folder.
+4.  **Enter the Project Directory:** Now, move into the newly created project folder.
     ```bash
     cd ML4F
     ```
-
-7.  **Create and Activate the Conda Environment:** This command creates an isolated virtual space named `ml4fe` for this project.
+   
+5.  **Create the Conda Environment from File:** This single command reads the `environment.yml` file, creates a new environment with the correct name (`ml4fe`), and installs all the specified libraries automatically.
     ```bash
-    # Create the environment
-    conda create --name ml4fe python=3.9
+    conda env create -f environment.yml
+    ```
 
-    # Activate the environment
+6.  **Activate the New Environment:** Once the installation is complete, activate the environment.
+    ```bash
     conda activate ml4fe
     ```
-    Your terminal prompt should now show `(ml4fe)` at the beginning, indicating the environment is active.
+    Your terminal prompt should now show `(ml4fe)` at the beginning, indicating the environment is active and ready to use.
 
-8.  **Install Required Libraries:** Finally, install all the necessary Python packages from the `requirements.txt` file.
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### Step 2: Launch Jupyter Notebook
 
