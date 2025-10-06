@@ -78,16 +78,16 @@ jupyter notebook notebooks/2_Surrogate_Model_Showcase/2.2_All_Models_Engineered_
 -->
 
 
-## Repository Structure & Workflow
+## Repository Structure & Workflow ⚙️ 
 
-This repository is structured to follow the workflow of the paper.
+This repository is structured as follows.
 <!---
 * **`📄 /paper/`**: Contains the full research paper.
 -->
 * **`📊 /data/`**: Contains the simulation dataset.
 * **`💻 /code/`**: The Jupyter notebook files used in this project, organized by task.
     * **`Active_Learning/`**: Notebooks for validating the numerical simulation setup against experimental data.
-    * **`3_Hyperparameter_Tuning/`**: Individual notebooks for performing hyperparameter grid searches for each model.
+    * **`Hyperparameter_Tuning/`**: Individual notebooks for performing hyperparameter grid searches for each model.
     * **`Surrogate_model_predictions/`**: The main notebooks. Here, we train and evaluate all ML surrogate models, with both original and engineered features, reproducing the core results.
     * **`Validation_for_simulations/`**: Notebooks for validating the numerical simulation setup.
 <!--
