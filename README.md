@@ -112,7 +112,8 @@ If you use this code or the concepts from our paper in your research, please cit
 Ghrabli, M., Bouarroudj, M., Chamoin, L., & Aldea, E. (2025). Data-driven metamodels for failure analysis of power electronic modules. In Proceedings of the 36th European Symposium on Reliability of Electron Devices, Failure Physics and Analysis (ESREF 2025). Bordeaux, France.
 
 
-
+<!--
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+-->
