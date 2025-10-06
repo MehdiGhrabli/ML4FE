@@ -81,16 +81,18 @@ jupyter notebook notebooks/2_Surrogate_Model_Showcase/2.2_All_Models_Engineered_
 ## Repository Structure & Workflow
 
 This repository is structured to follow the workflow of the paper.
-
+<!---
 * **`📄 /paper/`**: Contains the full research paper.
+-->
 * **`📊 /data/`**: Contains the simulation dataset.
-* **`💻 /notebooks/`**: All Jupyter notebooks, organized by task.
-    * [cite_start]**`1_Simulation_Data_Validation/`**: Notebooks for validating the numerical simulation setup against experimental data (Appendices B & D)[cite: 701, 802].
-    * **`2_Surrogate_Model_Showcase/`**: The main notebooks. [cite_start]Here, we train and evaluate all ML surrogate models, with both original and engineered features, reproducing the core results from Section 5[cite: 306].
-    * [cite_start]**`3_Hyperparameter_Tuning/`**: Individual notebooks for performing hyperparameter grid searches for each model family (Section 5.3.1)[cite: 388].
-    * **`4_Advanced_Techniques/`**: A demonstration of Active Learning for efficient data acquisition (Section 5.4)[cite: 562].
+* **`💻 /code/`**: The Jupyter notebook files used in this project, organized by task.
+    * **`Active_Learning/`**: Notebooks for validating the numerical simulation setup against experimental data.
+    * **`3_Hyperparameter_Tuning/`**: Individual notebooks for performing hyperparameter grid searches for each model.
+    * **`Surrogate_model_predictions/`**: The main notebooks. Here, we train and evaluate all ML surrogate models, with both original and engineered features, reproducing the core results.
+    * **`Validation_for_simulations/`**: Notebooks for validating the numerical simulation setup.
+<!--
 * **`🛠️ /src/`**: (Optional) Contains helper functions for plotting, data loading, and metrics.
-
+-->
 ## How to Cite ✒️
 
 If you use this code or the concepts from our paper in your research, please cite us:
