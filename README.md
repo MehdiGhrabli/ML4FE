@@ -172,7 +172,7 @@ You are now ready to run the project!
     Change this placeholder to the correct relative path of the dataset file. Since the notebooks are in `code/`, the path should be:
     ```python
     # Change it to this
-    Data_sims_file = "../data/simulation_dataset" # 
+    Data_sims_file = "../data/simulation_dataset" 
     ```
 
 4.  **Run the Notebook Cells:** You can now run the cells sequentially by pressing **Shift + Enter** or by using the **Cell > Run All** option in the menu.
