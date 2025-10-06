@@ -78,7 +78,7 @@ jupyter notebook notebooks/2_Surrogate_Model_Showcase/2.2_All_Models_Engineered_
 -->
 
 
-## Repository Structure & Workflow ⚙️ 
+## Repository Structure 🏗️
 
 This repository is structured as follows.
 <!---
@@ -93,6 +93,91 @@ This repository is structured as follows.
 <!--
 * **`🛠️ /src/`**: (Optional) Contains helper functions for plotting, data loading, and metrics.
 -->
+
+## Getting Started 🚀
+### Step 1: Set Up the Environment
+This guide is designed to help you get the project running, even if you're new to Python and Jupyter. For scientific projects like this one, setting up Python and all its required libraries can be tricky. Anaconda is a free, all-in-one installation that simplifies this process immensely. It bundles:
+
+*   Python itself.
+*   The conda environment manager, which lets us create isolated workspaces for different projects.
+*   Key data science libraries, including Jupyter Notebook.
+
+  
+By using Anaconda, you get everything you need in a single, straightforward installation, avoiding complex setup issues.
+
+#### Installation Steps
+
+1.  **Install Anaconda:** If you don't have it, download and install the Anaconda Distribution for your operating system.
+    * ➡️ **[Anaconda Installation Guide](https://docs.anaconda.com/free/anaconda/install/index.html)**
+
+2.  **Open the Terminal & Navigate:** You'll need to use a command-line interface. On Windows, open the **Anaconda Prompt** from the Start Menu. On macOS or Linux, open the **Terminal**.
+
+3.  **Clone the Repository:** In your terminal, navigate to the directory where you want to store the project (e.g., your Desktop or Documents folder). Use the `cd` (change directory) command, which is the text-based way of opening a folder. Then, clone the repository using this command: 
+    ```bash
+    # Example: Navigate to your Desktop
+    cd Desktop
+
+    # Clone the repository from GitHub
+    git clone [https://github.com/MehdiGhrabli/ML4F.git](https://github.com/MehdiGhrabli/ML4F.git)
+    ```
+
+6.  **Enter the Project Directory:** Now, move into the newly created project folder.
+    ```bash
+    cd ML4F
+    ```
+
+7.  **Create and Activate the Conda Environment:** This command creates an isolated virtual space named `ml4fe` for this project.
+    ```bash
+    # Create the environment
+    conda create --name ml4fe python=3.9
+
+    # Activate the environment
+    conda activate ml4fe
+    ```
+    Your terminal prompt should now show `(ml4fe)` at the beginning, indicating the environment is active.
+
+8.  **Install Required Libraries:** Finally, install all the necessary Python packages from the `requirements.txt` file.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Step 2: Launch Jupyter Notebook
+
+Now that your environment is set up, you need to make it available inside Jupyter and launch the application.
+
+1.  **Make Your Environment Visible to Jupyter:** Run the following command in your activated `(ml4fe)` terminal. This registers your environment as a "kernel" that Jupyter can use.
+    ```bash
+    python -m ipykernel install --user --name=ml4fe
+    ```
+
+2.  **Start Jupyter Notebook:** Make sure you are still in the `ML4F` project directory in your terminal, then run:
+    ```bash
+    jupyter notebook
+    ```
+    This will open a new tab in your web browser showing the project files.
+
+### Step 3: Run the Code
+
+You are now ready to run the project!
+
+1.  **Navigate and Open a Notebook:** In your browser, click on the `code/` directory and select any notebook you wish to run (e.g., `Surrogate_model_predictions/All_Models_Engineered_Features.ipynb`).
+
+2.  **Select the Correct Kernel:** Once the notebook is open, go to the top menu and click **Kernel > Change kernel > ml4fe**. This ensures the notebook uses the environment you just created.
+
+3.  **IMPORTANT - Set the Data Path:** In each notebook, you must tell it where to find the data. Find the cell near the top of the notebook that contains the following line:
+    ```python
+    # Find this line in the notebook
+    Data_sims_file = "C:\\Users\\Mehdi-GHRABLI\\Desktop\\New_Launch\\New_launch_files\\user_files" 
+    ```
+    Change this placeholder to the correct relative path of the dataset file. Since the notebooks are in `code/`, the path should be:
+    ```python
+    # Change it to this
+    Data_sims_file = "../data/simulation_dataset" # 
+    ```
+
+4.  **Run the Notebook Cells:** You can now run the cells sequentially by pressing **Shift + Enter** or by using the **Cell > Run All** option in the menu.
+
+
 ## How to Cite ✒️
 
 If you use this code or the concepts from our paper in your research, please cite us:
