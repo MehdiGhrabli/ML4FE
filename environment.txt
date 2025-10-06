@@ -1,4 +1,4 @@
-name: SurrogateAI
+name: ml4fe
 channels:
   - conda-forge
   - defaults
@@ -17,3 +17,4 @@ dependencies:
   - pip
   - pip:
       - ISLP
+
