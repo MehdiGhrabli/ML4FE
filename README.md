@@ -32,7 +32,7 @@ This framework introduces: **machine learning surrogate models, replacing slow, 
 -->
 ## Key contributions ✨
 
-* **Massive Computational Speed-Up:** Achieve a $\approx 10^6$ speed increase over traditional numerical simulations.
+* **Massive Computational Speed-Up:** $\times 10^6$ speed increase over traditional numerical simulations.
 * **Comprehensive Model Comparison:** Analysis of various ML families, from Linear Models to Tree-based Ensembles and Neural Networks.
 * **Best Practices Guide:** Includes detailed analysis on hyperparameter tuning, residual analysis, feature engineering, and data-size requirements to guide practitioners.
 * **Advanced Data Strategy:** Demonstrates the use of Active Learning to intelligently reduce the number of expensive simulations needed for training.
