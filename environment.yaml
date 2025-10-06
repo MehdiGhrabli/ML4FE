@@ -1,0 +1,19 @@
+name: SurrogateAI
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - tqdm
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pygam
+  - tensorflow
+  - keras
+  - pip
+  - pip:
+      - ISLP
