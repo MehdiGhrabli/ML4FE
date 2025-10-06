@@ -94,16 +94,22 @@ This repository is structured to follow the workflow of the paper.
 ## How to Cite ✒️
 
 If you use this code or the concepts from our paper in your research, please cite us:
-
+### Bibtex
 ```bibtex
-@article{Ghrabli2025,
-  author    = {M. Ghrabli and E. Aldea and M. Bouarroudj and L. Chamoin},
-  title     = {AI surrogate modeling for Lifetime Predictions in Power Electronic Modules},
-  year      = {2025},
-  journal   = {Microelectronics Reliability},
-  % Add volume, pages, doi when available
+@inproceedings{Ghrabli2025DataDriven,
+  author    = "{Ghrabli, Mehdi and Bouarroudj, Mounira and Chamoin, Ludovic and Aldea, Emanuel}",
+  title     = "{Data-driven Metamodels for Failure Analysis of Power Electronic Modules}",
+  booktitle = "{Proceedings of the 36th European Symposium on Reliability of Electron Devices, Failure Physics and Analysis (ESREF 2025)}",
+  year      = "{2025}",
+  month     = "{oct}",
+  address   = "{Bordeaux, France}",
+  note      = "{Forthcoming, to be published on HAL}"
 }
 ```
+### APA 
+Ghrabli, M., Bouarroudj, M., Chamoin, L., & Aldea, E. (2025). Data-driven metamodels for failure analysis of power electronic modules. In Proceedings of the 36th European Symposium on Reliability of Electron Devices, Failure Physics and Analysis (ESREF 2025). Bordeaux, France.
+
+
 
 ## License
 
