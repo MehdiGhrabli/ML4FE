@@ -1,32 +1,45 @@
-# ML4FE
-
-# AI Surrogate Modeling for Lifetime Predictions in Power Electronic Modules
+# ML4FE:ML Surrogate Models for Finite Element Simulations in Power Electronic Modules' Reliability
 
 This repository uses machine learning methods coupled with finite element simulation results to reduce and optimize computational time. 
+<!---
+[comment]: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[comment]: [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[comment]:[cite_start]This repository contains the official source code and data for the paper: **"AI Surrogate Modeling for Lifetime Predictions in Power Electronic Modules"**[cite: 1, 2].
 
-[cite_start]This repository contains the official source code and data for the paper: **"AI Surrogate Modeling for Lifetime Predictions in Power Electronic Modules"**[cite: 1, 2].
-
-[**➡️ Read the Full Paper Here**](./paper/MR_Paper2025_in_progress.pdf)
+[comment]:[**➡️ Read the Full Paper Here**](./paper/MR_Paper2025_in_progress.pdf)
+-->
 
 ## Overview 📝
+Reliability assesslent of Power Electronic Modules is computationally slow, often relying on the notoriously slow Finite Element Simulations to obtain updates on the mechancial state of the module during its life time. 
 
+This framework introduces: **machine learning surrogate models, replacing slow, high-fidelity simulations.** These surrogates replicate the simulation output with high accuracy while being up to **$10^6$ times faster**, making robust, cycle-by-cycle Remaining Useful Life (RUL) estimation practical.
+
+<!---
+[comment]: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[comment]: [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+
+[comment]:[cite_start]This repository contains the official source code and data for the paper: **"AI Surrogate Modeling for Lifetime Predictions in Power Electronic Modules"**[cite: 1, 2].
+
+[comment]:[**➡️ Read the Full Paper Here**](./paper/MR_Paper2025_in_progress.pdf)
+-->
+<!---
 [cite_start]Reliability assessment of power electronic modules (PEMs) is often slow and inaccurate, relying on methods that fail to capture non-linear damage accumulation[cite: 9, 10]. [cite_start]Autoregressive models are more robust but are crippled by the high computational cost of the required numerical simulations[cite: 11, 12, 67].
 
-[cite_start]This framework introduces a solution: **replacing slow, high-fidelity simulations with machine learning surrogate models.** These surrogates replicate the simulation output with high accuracy while being up to **$10^6$ times faster**[cite: 14], making robust, cycle-by-cycle Remaining Useful Life (RUL) estimation practical.
+[cite_start]
 
 [cite_start]*A schematic of the proposed autoregressive RUL estimation pipeline enabled by fast surrogate models (see Section 6)[cite: 623].*
+-->
+## Key contributions ✨
 
-## Key Features ✨
+* **Massive Computational Speed-Up:** Achieve a $\approx 10^6$ speed increase over traditional numerical simulations.
+* **Comprehensive Model Comparison:** Analysis of various ML families, from Linear Models to Tree-based Ensembles and Neural Networks.
+* **Best Practices Guide:** Includes detailed analysis on hyperparameter tuning, residual analysis, feature engineering, and data-size requirements to guide practitioners.
+* **Advanced Data Strategy:** Demonstrates the use of Active Learning to intelligently reduce the number of expensive simulations needed for training.
+* **Reproducible & Accessible:** All code and data are provided to ensure full reproducibility, designed for practitioners with minimal AI experience.
 
-* [cite_start]**Massive Speed-Up:** Achieve a $\approx 10^6$ speed increase over traditional numerical simulations[cite: 364].
-* [cite_start]**Comprehensive Model Comparison:** Analysis of various ML families, from Linear Models to Tree-based Ensembles and Neural Networks[cite: 234].
-* [cite_start]**Best Practices Guide:** Includes detailed analysis on hyperparameter tuning, residual analysis, feature engineering, and data-size requirements to guide practitioners[cite: 388, 422, 499, 528].
-* [cite_start]**Advanced Data Strategy:** Demonstrates the use of Active Learning to intelligently reduce the number of expensive simulations needed for training[cite: 565].
-* [cite_start]**Reproducible & Accessible:** All code and data are provided to ensure full reproducibility, designed for practitioners with minimal AI experience[cite: 16].
 
+<!---
 ## Getting Started 🚀
 
 ### 1. Prerequisites
@@ -62,6 +75,8 @@ To see the core results of the paper, run the main showcase notebook. This will 
 ```bash
 jupyter notebook notebooks/2_Surrogate_Model_Showcase/2.2_All_Models_Engineered_Features.ipynb
 ```
+-->
+
 
 ## Repository Structure & Workflow
 
