@@ -32,13 +32,13 @@ The zip file contains the raw output from Ansys simulations. It is organized int
     ```
     ML4FE/
     ├── data/
-    │   ├── DP0001/
-    │   │   ├── temperature.txt
+    │   ├── DP652/
+    │   │   ├── Average_Chip_Temperature.txt
     │   │   └── ...
-    │   ├── DP0002/
+    │   ├── DP653/
     │   │   └── ...
     │   ├── ...
-    │   └── README.md  <-- This file
+    │   └── ...
     ├── src/
     └── ...
     ```
