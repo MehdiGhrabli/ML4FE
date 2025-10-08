@@ -90,7 +90,7 @@ This repository is structured as follows.
     * **`Hyperparameter_Tuning/`**: Individual notebooks for performing hyperparameter grid searches for each model.
     * **`Surrogate_model_predictions/`**: The main notebooks. Here, we train and evaluate all ML surrogate models, with both original and engineered features, reproducing the core results.
     * **`Validation_for_simulations/`**: Notebooks for validating the numerical simulation setup.
-* **`🖼️ /ESREF2025_slides`**: the PDF slides of the ESREF2025 presentation, providing visuals about this work.
+* **`🖼️ /ESREF2025_slides.pdf`**: the PDF slides of the ESREF2025 presentation, providing visuals about this work.
 <!--
 * **`🛠️ /src/`**: (Optional) Contains helper functions for plotting, data loading, and metrics.
 -->
