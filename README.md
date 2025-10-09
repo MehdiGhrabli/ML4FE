@@ -3,7 +3,7 @@
 This repository presents how machine learning methods were coupled with finite element simulation results to reduce and optimize computational time in power electronic module's reliability assessment. This work has been presented in the ESREF2025 conference.
 
 ## Contact
-For any inquires or suggestions : 
+For any inquires or suggestions feel free to contact me via my email below: 
 
 Mehdi Ghrabli  - mehdi.ghrabli1@ens-paris-saclay.fr
 <!---
