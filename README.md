@@ -1,6 +1,11 @@
 # ML4FE:ML Surrogate Models for Finite Element Simulations in Power Electronic Modules' Reliability
 
 This repository presents how machine learning methods were coupled with finite element simulation results to reduce and optimize computational time in power electronic module's reliability assessment. This work has been presented in the ESREF2025 conference.
+
+## Contact
+For any inquires or suggestions : 
+
+Mehdi Ghrabli  - mehdi.ghrabli1@ens-paris-saclay.fr
 <!---
 [comment]: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [comment]: [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
